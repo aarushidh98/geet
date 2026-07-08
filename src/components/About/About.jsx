@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { revealChildren, parallaxY } from '@/lib/scrollReveal'
 import SectionAccent from '@/components/ThreeD/SectionAccent'
+import { asset } from '@/lib/asset'
 
 export default function About() {
   const sectionRef = useRef()

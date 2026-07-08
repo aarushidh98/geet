@@ -71,7 +71,7 @@ export default function About() {
         className="about-reveal mt-20 md:mt-28 relative h-[50vh] md:h-[70vh] w-full overflow-hidden"
       >
         <img
-          src="/band/geet.png"
+          src="src={asset('band/geet.png')}"
           alt="GEET rehearsing together in a small room"
           className="h-full w-full object-cover grayscale-[20%]"
           loading="lazy"

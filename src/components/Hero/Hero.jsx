@@ -167,7 +167,7 @@ export default function Hero() {
           style={{ boxShadow: '10px 10px 0 rgba(0,0,0,0.35)' }}
         >
           <img
-            src="{asset('band/hero-photo.jpg')}"
+            src="geet/public/band/hero-photo.jpg"
             alt="GEET performing live on stage"
             className="h-full w-full object-cover"
             loading="lazy"

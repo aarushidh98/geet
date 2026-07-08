@@ -4,7 +4,7 @@ const bandData = [
     name: 'Hrishabh Dhingra',
     role: 'Lead Guitar, Harmonies',
     note: 'Writes the first draft of every song, usually on the metro.',
-    image: {asset('band/hrishabh.jpg')},
+    image: '{asset('band/hrishabh.jpg')}',
   },
   {
     id: '02',

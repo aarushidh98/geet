@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { revealChildren, parallaxY } from '@/lib/scrollReveal'
 import SectionAccent from '@/components/ThreeD/SectionAccent'
 import bandData from './bandData'
+import { asset } from '@/lib/asset'
 
 function MemberRow({ member, isActive, onHover }) {
   return (

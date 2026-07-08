@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import Scene from '@/components/ThreeD/Scene'
+import { asset } from '@/lib/asset'
 
 export default function Hero() {
   const sectionRef = useRef()

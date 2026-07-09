@@ -2,10 +2,11 @@ import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { revealChildren, parallaxY } from '@/lib/scrollReveal'
 import SectionAccent from '@/components/ThreeD/SectionAccent'
+import { asset } from '@/lib/asset'
 
 const IMAGES = Array.from({ length: 8 }).map((_, i) => ({
   id: i + 1,
-  src: `/gallery/${String(i + 1).padStart(2, '0')}.jpg`,
+  src: asset(`gallery/${String(i + 1).padStart(2, '0')}.jpg`),
   alt: `GEET on stage, photo ${i + 1}`,
 }))
 

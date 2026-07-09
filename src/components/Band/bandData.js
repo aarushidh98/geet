@@ -1,3 +1,5 @@
+import { asset } from '@/lib/asset'
+
 const bandData = [
   {
     id: '01',
@@ -11,28 +13,28 @@ const bandData = [
     name: 'Mira Sood',
     role: 'Musician, Harmonies',
     note: 'Turns a two-chord idea into the part you hum for a week.',
-    image: '/band/mira.jpg',
+    image: asset('band/mira.jpg'),
   },
   {
     id: '03',
     name: 'TJ',
     role: 'Bass',
     note: 'The quiet one. Holds the whole room down without moving much.',
-    image: '/band/kabir.jpg',
+    image: asset('band/kabir.jpg'),
   },
   {
     id: '04',
     name: 'Naina Thomas',
     role: 'Guitar, Percussion',
     note: 'Learned rhythm on kitchen counters before she owned a kit.',
-    image: '/band/naina.jpg',
+    image: asset('band/naina.jpg'),
   },
   {
     id: '05',
     name: 'The Drummer',
     role: 'Drums, Percussion',
     note: 'Learned rhythm on kitchen counters before she owned a kit.',
-    image: '/band/drum.jpg',
+    image: asset('band/drum.jpg'),
   },
 ]
 

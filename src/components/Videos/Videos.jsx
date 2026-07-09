@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
+import { asset } from '@/lib/asset'
 import { revealChildren, parallaxY } from '@/lib/scrollReveal'
 import SectionAccent from '@/components/ThreeD/SectionAccent'
 
 const PERFORMANCES = [
-  { id: 'v1', title: 'Ashen Roads', venue: 'The Attic, Delhi', src: '/videos/live-1.mp4', poster: '/gallery/hri.jpg' },
-  { id: 'v2', title: 'Paper Boats', venue: 'Blue Tokai Sessions', src: '/videos/live-2.mp4', poster: '/gallery/sha.jpg' },
-  { id: 'v3', title: 'Static & Streetlight', venue: 'Summer House Cafe', src: '/videos/live-3.mp4', poster: '/gallery/bhd.jpg' },
-  { id: 'v4', title: 'Slow Weather', venue: 'Fandom Fest', src: '/videos/live-4.mp4', poster: '/gallery/hin.jpg' },
+  { id: 'v1', title: 'Ashen Roads', venue: 'The Attic, Delhi', src: '/videos/live-1.mp4', poster: asset('gallery/hri.jpg') },
+  { id: 'v2', title: 'Paper Boats', venue: 'Blue Tokai Sessions', src: '/videos/live-2.mp4', poster: asset('/gallery/sha.jpg') },
+  { id: 'v3', title: 'Static & Streetlight', venue: 'Summer House Cafe', src: '/videos/live-3.mp4', poster: asset('/gallery/bhd.jpg') },
+  { id: 'v4', title: 'Slow Weather', venue: 'Fandom Fest', src: '/videos/live-4.mp4', poster: asset('/gallery/hin.jpg') },
 ]
 
 export default function Videos() {
